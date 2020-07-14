@@ -1,3 +1,7 @@
 .welcome{
     background-image: url("images/home\ pg.jpg");
+    height: 150px;
+    color: white;
+    text-align: center;
+    padding: 2.5rem;
 }
