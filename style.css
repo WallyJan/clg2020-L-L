@@ -6,7 +6,7 @@
     padding: 3rem;
 }
 .Causes {
-    background-color: teal;
+    background-color: #00ff00;
 }
 .person img {
     width:200px;
@@ -16,4 +16,7 @@
 nav a:hover{
     color: black;
     font-weight: bold;
+}
+.row{
+    text-align: center;
 }
