@@ -46,6 +46,14 @@ a{
 .form{
     width: 60%;
 }
+ul{
+    list-style-type: circle;
+}
+
+.btn{
+    background-color: #296E6B;
+    color: white;
+    border-color: #296E6B;
 .container{
     max-width: 1000px;
     margin: auto;
