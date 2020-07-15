@@ -1,3 +1,9 @@
+.navbar{
+    background-color: white;
+    color: black ;
+    border-bottom: solid lightgray;
+}
+
 .welcome{
     background-image: url("images/home\ pg.jpg");
     height: 9rem;
