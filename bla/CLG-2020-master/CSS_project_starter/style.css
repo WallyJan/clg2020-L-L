@@ -1,0 +1,227 @@
+/**************************
+Step 7 Vlož hodnoty pro body tag.
+**************************/
+
+
+body {
+  color: rgb(49, 58, 69);
+  font-family: sans-serif;
+  margin: 0;
+}
+
+
+/**************************
+Step 8 Nastav šířku a okraj(margin) pro .container selector 
+**************************/
+
+
+.container {
+  width: 60vw;
+  margin: 0 auto;
+}
+ 
+
+/**************************
+Step 9 Nastav font-size a text-align pro nav element 
+**************************/
+
+
+nav {
+  font-size: 24px;
+  text-align: center;
+
+}
+ 
+
+/**************************
+Step 10 Změň velikost obrázkům
+**************************/
+
+
+img {
+  width: 300px;
+  height: 300px;
+  border-radius: 150px
+}
+ 
+
+/**************************
+Step 11 Nastav každému písmenu jinou barvu
+**************************/
+
+
+.green {
+  color: #29c529;
+}
+
+.red {
+  color: #ff523d;
+}
+
+.blue {
+  color: #223c88;
+}
+ 
+
+/************************** 
+Step 11 Změn barvu pozadí (background-color) následujícím třídám
+.mission
+.about-us
+.team
+.contact
+sections
+**************************/
+
+
+.mission {
+  background-color: #29c529;
+  color: black;
+  text-align: center;
+}
+
+.about-us {
+  background-color: white;
+  
+}
+
+.team {
+  background-color: #223c88;
+  color: white;
+  
+}
+
+.contact {
+  background-color: #ff523d;
+  color: white;
+  
+}
+
+
+/************************** 
+Step 12 Nastav "vatu" (padding) pro section element = přepiš "X"
+**************************/
+
+
+section {
+  padding: 3rem 0rem 6rem 0rem;
+}
+ 
+
+/**************************
+Step  13 Uprav hlavní banner
+**************************/
+
+
+.banner {
+  height: 25 rem;
+  background: #223c88 url('img/banner.jpg') center/cover no-repeat;
+}
+ 
+
+
+/**************************
+Step 14 Vybíráme podle id elementu
+**************************/
+
+
+#myList {
+  list-style: circle;
+}
+ 
+
+/************************** 
+Step 16 Hrajeme si s položkami seznamu
+**************************/
+
+
+li.item{
+  padding: 2em;
+}
+
+.bsa, .sea {
+  color: grey;
+}
+
+.venturing {
+  color: brown;
+}
+ 
+
+/**************************
+Step 17 Nastav speciální stav pro :hover (přejetí myší) pro <a> tag v <nav> baru
+**************************/
+
+
+nav a:hover {
+  color: #223c88;
+  font-weight:bold;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**************************
+Original set up 
+**************************/
+
+nav a {
+  color: black;
+  display: inline;
+  padding: 0 1rem;
+  line-height: 3rem;
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+  font-weight: 900;
+}
+
+h1, h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  margin-bottom: 0;
+}
+
+p {
+  margin: 0;
+  line-height: 150%;
+}
+
+.person {
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.contact-part {
+  margin-bottom: 1rem;
+}
+
+.banner h1 {
+  width: 18rem;
+  padding-bottom: 1rem;
+  border-bottom: 4px solid white;
+  color: white; 
+}
