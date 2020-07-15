@@ -2,55 +2,66 @@
 <html lang="en">
 
 <head>
+    <title>Find Your Charity</title>
+    <link rel="shortcut icon" type="images/png" href="images/charity.png">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <script src="java.js"></script>
 </head>
 
 
-<body>
-    <section>
-        <a name="nav"></a>
-    <nav class="container navbar">
+<body class="body">
+    <a name="nav"></a>
+    <nav class="navbar sticky-top">
+        <img src="images/charity.png" width="30px" height="30px">
         <a href="#causes">Causes</a>
-        <a href="#charities">Charities</a>
         <a href="#our">Our goal</a>
-        <a href="#about">About us</a>
-        <a href="#contacts">Contacts</a> 
-     </nav>
-   </section>
+        <a href="#charities">Charities</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contacts">Contacts</a>
+    </nav>
 
-  <section class="welcome">
-      <div>
-          <h1> Who needs your help</h1>
-      </div>
-  </section>
-  
-  <p style="color: darkgray;text-align: center; margin-top:1rem ;">
-    We are here to help you choose who to give money to
-  </p>
+    <section class="welcome">
+        <div>
+            <h1> Who needs your help</h1>
+        </div>
+    </section>
+
+    <p style="color: darkgray;text-align: center; margin-top:1rem ;">
+        We are here to help you choose who to give money to
+    </p>
 
     <section class="Causes">
         <div class="container">
             <a name="causes"></a>
             <h1>Causes</h1>
             <div class="row">
-                <div class="person col-md">
-                    <a href="#cancer"><img src="images/health 1.jpg"></a>
-                    <h3>Cancer</h3>
+                <div class="person col-lg">
+                    <a href="#health"><img src="images/health 1.jpg"></a>
+                    <h3>Health</h3>
                 </div>
 
-                <div class="person col-md">
+                <div class="person col-lg">
                     <a href="#child"><img src="images/children1.jpg"></a>
                     <h3>Child Protection</h3>
                 </div>
 
-                <div class="person col-md">
+                <div class="person col-lg">
                     <a href="#animal"><img src="images/paw 1.jpg"></a>
                     <h3>Animal</h3>
                 </div>
 
-                <div class="person col-md">
+                <div class="person col-lg">
                     <a href="#envo"><img src="images/plant1.jpg"></a>
                     <h3>Environmental</h3>
                 </div>
@@ -58,63 +69,157 @@
         </div>
     </section>
 
-    <section class="Charities">
-        <a name="charities"></a>
-        <div class="container"></div>
-
-            <a name="cancer"></a>
-            <h2>Cancer Charities</h2>
-            <ul>
-                <li><a href="https://www.bcrf.org/" target="https://www.bcrf.org/_blank">Breast Cancer Research Foundation</a></li>
-                <li><a href="https://www.cancerresearch.org/" target="https://www.cancerresearch.org/_blank">Cancer Reseatch Institute</a></li>
-            </ul>
-
-            <a name="child"></a>
-            <h2>Child Protection Charities</h2>
-            <ul>
-                <li><a href="https://www.childrensdefense.org/" target="https://www.childrensdefense.org/_blank">Children's Defense Fund</a></li>
-                <li><a href="https://www.childrenshealthfund.org/" target="https://www.childrenshealthfund.org/_blank">Children's Health Fund</a></li>
-            </ul>
-
-            <a name="animal"></a>
-            <h2>Animal Charities</h2>
-            <ul>
-                <li><a href="https://awionline.org/" target="https://awionline.org/_blank">Animal Welfare Institute</a></li>
-                <li><a href="https://bestfriends.org/" target="https://bestfriends.org/_blank"> Best Friends Animal Society</a></li>
-            </ul>
-
-            <a name="envo"></a>
-            <h2>Environmental Charities</h2>
-            <ul>
-                <li><a href="https://www.conservationfund.org/" target="https://www.conservationfund.org/_blank">Conservation Fund</a></li>
-                <li><a href="https://www.edfaction.org/" target="https://www.edfaction.org/_blank">Environmental Defense Action Fund</a></li>
-            </ul>
-        </div>
-    </section>
-
     <section class="Our">
-        <div class="container">
+        <div>
             <a name="our"></a>
             <h2>Our goal</h2>
             <p>
-                blabla
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut iusto eum unde odio doloremque cum. Sunt
+                deserunt praesentium accusantium, repellendus repellat facilis pariatur aperiam laboriosam fugiat
+                incidunt totam numquam, tenetur voluptate earum commodi fugit quidem, ex ut ipsum iusto? Beatae,
+                blanditiis harum. Quo voluptatum, facilis temporibus molestias illum quae voluptate fugit non eveniet
+                provident, ut nostrum animi! Officiis officia, quasi ut voluptatem nulla obcaecati quae architecto ullam
+                placeat quidem qui deleniti ipsum quibusdam repudiandae totam sunt debitis neque tenetur quisquam nam
+                laudantium expedita! Aspernatur fugiat libero excepturi est tempora, aperiam magni odit quas voluptatum
+                culpa labore eum quisquam numquam autem voluptatibus consequuntur optio blanditiis temporibus
+                repellendus. Quaerat itaque distinctio inventore dolorum libero ducimus, cupiditate mollitia. Dicta
+                doloribus unde quia voluptatibus repudiandae a blanditiis officiis. Illo eius sapiente dolore commodi
+                officia praesentium maxime, sequi architecto! Beatae architecto sapiente et expedita asperiores, harum
+                magni officiis vel quos itaque maxime dolor? Cum, sapiente!
             </p>
         </div>
     </section>
 
-    <section class="About">
-        <div class="container">
-            <a name="about"></a>
-            <h2>About us</h2>
+
+    <section class="Charities">
+        <a name="charities"></a>
+        <div class="container"></div>
+
+        <a name="health"></a>
+        <h2>Health Charities</h2>
+        <ul>
+            <li><a href="https://www.bcrf.org/" target="https://www.bcrf.org/_blank">Breast Cancer Research
+                    Foundation</a></li>
+            <li><a href="https://www.cancerresearch.org/" target="https://www.cancerresearch.org/_blank">Cancer Reseatch
+                    Institute</a></li>
+            <li><a href="https://www.bcpp.org/" target="https://www.bcpp.org/_blank">Breast Cancer Prevention
+                    Partners</a></li>
+            <li><a href="https://www.preventcancer.org/" target="https://www.preventcancer.org/_blank">Prevent Cancer
+                    Foundation</a></li>
+        </ul>
+        <p>
+            <a class="btn-sm btn-info" data-toggle="collapse" href="#collapseExample" role="button"
+                aria-expanded="false" aria-controls="collapseExample">
+                Learn more
+            </a>
+        </p>
+        <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil
+                anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+            </div>
+        </div>
+
+
+
+        <a name="child"></a>
+        <h2>Child Protection Charities</h2>
+        <ul>
+            <li><a href="https://www.childrensdefense.org/" target="https://www.childrensdefense.org/_blank">Children's
+                    Defense Fund</a></li>
+            <li><a href="https://www.childrenshealthfund.org/"
+                    target="https://www.childrenshealthfund.org/_blank">Children's Health Fund</a></li>
+        </ul>
+        <p>
+            <a class="btn-sm btn-info" data-toggle="collapse" href="#collapseExample2" role="button"
+                aria-expanded="false" aria-controls="collapseExample2">
+                Learn more
+            </a>
+        </p>
+        <div class="collapse" id="collapseExample2">
+            <div class="card card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil
+                anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+            </div>
+        </div>
+        <a name="animal"></a>
+        <h2>Animal Charities</h2>
+        <ul>
+            <li><a href="https://awionline.org/" target="https://awionline.org/_blank">Animal Welfare Institute</a></li>
+            <li><a href="https://bestfriends.org/" target="https://bestfriends.org/_blank"> Best Friends Animal
+                    Society</a></li>
+            <li><a href="https://www.awf.org/" target="https://www.awf.org/_blank">African Wildlife Foundation</a> </li>
+        </ul>
+        <p>
+            <a class="btn-sm btn-info" data-toggle="collapse" href="#collapseExample3" role="button"
+                aria-expanded="false" aria-controls="collapseExample3">
+                Learn more
+            </a>
+        </p>
+        <div class="collapse" id="collapseExample3">
+            <div class="card card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil
+                anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+            </div>
+        </div>
+        <a name="envo"></a>
+        <h2>Environmental Charities</h2>
+        <ul>
+            <li><a href="https://www.conservationfund.org/"
+                    target="https://www.conservationfund.org/_blank">Conservation Fund</a></li>
+            <li><a href="https://www.edfaction.org/" target="https://www.edfaction.org/_blank">Environmental Defense
+                    Action Fund</a></li>
+            <li><a href="https://www.rainforest-alliance.org/"
+                    target="https://www.rainforest-alliance.org/_blank">Rainforest Alliance</a></li>
+        </ul>
+        <p>
+            <a class="btn-sm btn-info" data-toggle="collapse" href="#collapseExample4" role="button"
+                aria-expanded="false" aria-controls="collapseExample4">
+                Learn more
+            </a>
+        </p>
+        <div class="collapse" id="collapseExample4">
+            <div class="card card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil
+                anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Please send me updates!</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+
+
+    <section class="FAQ">
+        <div>
+            <a name="faq"></a>
+            <br><br>
+            <h2>FAQ</h2>
             <p>
-                blabla
+                <strong>How do you decide which charities are reliable?</strong>
             </p>
 
         </div>
     </section>
 
     <section class="Contacts">
-        <div class="container">
+        <div>
+            <br><br>
             <a name="contacts"></a>
             <h2>Contacts</h2>
             <p>
@@ -124,10 +229,12 @@
     </section>
 
     <section class="back">
-        <div class="container">
+        <div>
             <p style="text-align: center;"><a href="#nav">back to top</a></p>
         </div>
     </section>
+
+
 </body>
 
 </html>
