@@ -16,6 +16,7 @@
 
 .carousel-caption{
     text-align: left;
+    position: -ms-page;
 }
 
 .Causes {
