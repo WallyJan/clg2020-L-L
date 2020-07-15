@@ -4,11 +4,8 @@
     border-bottom: solid lightgray;
 }
 
-.welcome{
-    background-image: url("images/home\ pg.jpg");
-    height: 35rem;
-    color: white;
-    padding: 4.5rem;
+.carousel-caption{
+    text-align: left;
 }
 
 .Causes {
@@ -37,4 +34,8 @@ a{
 }
 .form{
     width: 60%;
+}
+.container{
+    max-width: 1000px;
+    margin: auto;
 }
