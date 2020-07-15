@@ -36,3 +36,12 @@ a{
     margin-left: 1rem;
     margin-right: 1rem;
 }
+
+.mujFlex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mujFlex ul {
+    min-width: 200px;
+}
