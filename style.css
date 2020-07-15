@@ -42,6 +42,7 @@ a{
 .body{
     margin-left: 1rem;
     margin-right: 1rem;
+    text-align: center;
 }
 .form{
     width: 60%;
@@ -63,4 +64,16 @@ ul{
 .pics{
     height: 5cm;
     width: 7cm;
+}
+.list {
+    text-align: center;
+    list-style-position:inside;
+  }
+.collapse{
+    text-align: center;
+    list-style-position:inside;
+}
+.child{
+    text-align: center;
+    list-style-position:inside;
 }
