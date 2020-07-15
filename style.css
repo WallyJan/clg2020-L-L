@@ -14,11 +14,9 @@
     
 }
 
-.welcome{
-    background-image: url("images/home\ pg.jpg");
-    height: 35rem;
-    color: white;
-    padding: 4.5rem;
+.carousel-caption{
+    text-align: left;
+    position: -ms-page;
 }
 
 .Causes {
@@ -56,4 +54,7 @@ ul{
     background-color: #296E6B;
     color: white;
     border-color: #296E6B;
+.container{
+    max-width: 1000px;
+    margin: auto;
 }
