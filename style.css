@@ -16,7 +16,7 @@
 
 .carousel-caption{
     text-align: left;
-    position: -ms-page;
+    font-size: 5rem;
 }
 
 .Causes {
@@ -54,6 +54,7 @@ ul{
     background-color: #296E6B;
     color: white;
     border-color: #296E6B;
+}   
 .container{
     max-width: 1000px;
     margin: auto;
