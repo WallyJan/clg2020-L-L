@@ -119,3 +119,7 @@ ul{
 .card-body {
     margin: 2rem;
 }
+.form-group{
+    max-width: 350px;
+    margin: auto;
+}
