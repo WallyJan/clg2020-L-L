@@ -15,7 +15,7 @@
 }
 
 .carousel-caption{
-    text-align: left;
+    text-align: center;
     font-size: 5rem;
 }
 
@@ -44,6 +44,7 @@ a{
     margin-left: 1rem;
     margin-right: 1rem;
     text-align: center;
+    font-size: 1.25rem;
 }
 .form{
     width: 60%;
@@ -79,4 +80,9 @@ ul{
 .child{
     text-align: center;
     list-style-position:inside;
+}
+.d-block{
+    height: 33rem;
+    max-width: 1500px;
+    margin: auto;
 }
