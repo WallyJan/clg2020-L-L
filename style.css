@@ -30,13 +30,14 @@
 }
 
 a:hover{
-    color: black;
+    color:#296E6B;
     font-weight: bold;
     text-decoration: none;
 }
 
 a{
     color: black;
+    font-weight: bold;
 }
 .body{
     margin-left: 1rem ;
@@ -73,6 +74,7 @@ ul{
 .collapse{
     text-align: center;
     list-style-position:inside;
+    font-size: 1rem;
 }
 .child{
     text-align: center;
@@ -80,7 +82,7 @@ ul{
 }
 .d-block{
     height: 33rem;
-    max-width: 1500px;
+    max-width: 1100px;
     margin: auto;
 }
 .Contacts{
