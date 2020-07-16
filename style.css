@@ -118,6 +118,7 @@ ul{
 }
 .contacts{
     border-top: solid lightgray;
+    background-color: lightgray;
 }
 
 .card-body {
