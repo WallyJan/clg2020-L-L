@@ -10,8 +10,6 @@
     font-size: 1.5rem;
     align-items: center;
     font-family: 'Open Sans',sans-serif;
-    
-
 }
 
 .carousel-caption{
@@ -41,10 +39,11 @@ a{
     color: black;
 }
 .body{
-    margin-left: 1rem;
+    margin-left: 1rem ;
     margin-right: 1rem;
     text-align: center;
     font-size: 1.25rem;
+
 }
 
 ul{
@@ -83,6 +82,9 @@ ul{
     height: 33rem;
     max-width: 1500px;
     margin: auto;
+}
+.Contacts{
+    background-color: lightgrey;
 }
 .Our{
     border-top: solid lightgray;
